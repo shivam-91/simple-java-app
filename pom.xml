@@ -44,7 +44,7 @@
     </dependencies>
 
     <build>
-        <finalName>jsp-web-app</finalName>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
