@@ -1,0 +1,21 @@
+#!/bin/bash
+cd /home/ec2-user
+
+# Update system packages
+yum update -y
+
+# Install python3 (use available version)
+yum install -y python3
+
+# Install pip for python3
+yum install -y python3-pip
+
+# Upgrade pip to latest version (use --force-reinstall to handle RPM-installed pip)
+# python3 -m pip install --upgrade --force-reinstall pip
+
+# Install awscli and python dev libraries
+# python3 -m pip install --user -r scripts/requirements.txt
+
+# Verify installations
+echo "Python3 version: $(python3 --version)"
+echo "Pip3 version: $(python3 -m pip --version)"

@@ -1,0 +1,5 @@
+#!/bin/bash
+yum clean all
+sudo dnf install tomcat10 -y
+# alternatives --set java  /usr/lib/jvm/java-11-amazon-corretto.x86_64/bin/java
+mv /home/ec2-user/javaapp/ROOT.war /var/lib/tomcat10/webapps/
