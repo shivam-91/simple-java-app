@@ -5,9 +5,6 @@ files:
   destination: /home/ec2-user/javaapp
 hooks:
   AfterInstall:
-  - location: scripts/install_python3
-    timeout: 300
-    runas: root
   - location: scripts/install_java
     timeout: 300
     runas: root
