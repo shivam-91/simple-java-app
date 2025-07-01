@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="welcome-container">
-        <h1>🚀 Welcome!</h1>
+        <h1>🚀 Welcome AWS Engineers!</h1>
         <p>Your JSP web application is running successfully!</p>
         <p>Current time: <%= new java.util.Date() %></p>
         <a href="${pageContext.request.contextPath}/home" class="btn">
